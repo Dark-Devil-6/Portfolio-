@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YourBrand - Video Editor & Graphic Designer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #666;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: 500;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    .portfolio-item {
+      margin-bottom: 25px;
+    }
+    .portfolio-item img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #eeeeee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YourBrand</h1>
+    <p>Freelance Video Editor & Graphic Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a freelance creative focused on professional video editing and clean, modern graphic design. I help content creators, influencers, and brands tell better stories through visuals. Tools I use include Adobe Premiere Pro, Photoshop, and Canva.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+
+    <div class="portfolio-item">
+      <strong>YouTube Video Edit</strong>
+      <p>Edited vlog with clean transitions and motion text</p>
+      <img src="https://via.placeholder.com/700x350" alt="Video Sample">
+    </div>
+
+    <div class="portfolio-item">
+      <strong>Logo Design</strong>
+      <p>Modern and minimal logo sample</p>
+      <img src="https://via.placeholder.com/300x300" alt="Logo Design">
+    </div>
+
+    <div class="portfolio-item">
+      <strong>Instagram Post Design</strong>
+      <p>Social media graphics for engagement</p>
+      <img src="https://via.placeholder.com/600x400" alt="Social Post">
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>YouTube Video Editing</li>
+      <li>Reel & Short Editing</li>
+      <li>Logo Design & Branding</li>
+      <li>Instagram/Facebook Post Design</li>
+      <li>Intro/Outro Creation</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let’s work together! Reach me at:</p>
+    <p>Email: yourbrand@email.com</p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 YourBrand | Designed by You
+  </footer>
+
+</body>
+</html>
